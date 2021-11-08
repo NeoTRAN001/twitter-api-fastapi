@@ -1,5 +1,12 @@
+# FastAPI
 from fastapi import FastAPI
 from fastapi import status
+
+# Models
+from models.User import User
+from models.UserBase import UserBase
+from models.UserLogin import UserLogin
+from models.Tweet import Tweet
 
 app = FastAPI()
 
