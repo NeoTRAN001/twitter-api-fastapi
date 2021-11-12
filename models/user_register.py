@@ -2,9 +2,9 @@
 from pydantic import Field
 
 # Models
-from .UserBase import UserBase
+from .user import User
 
-class UserLogin(UserBase):
+class UserRegister(User):
     password: str = Field(
         ...,
         min_length=8,

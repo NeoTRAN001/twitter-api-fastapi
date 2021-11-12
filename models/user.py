@@ -6,7 +6,7 @@ from typing import Optional
 from pydantic import Field
 
 #Models
-from .UserBase import UserBase
+from .user_base import UserBase
 
 class User(UserBase):
     first_name: str = Field(
